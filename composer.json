@@ -1,0 +1,12 @@
+{
+    "require": {
+        "smarty/smarty": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "System\\": "system/",
+            "App\\":"src/"
+        },
+        "files": ["system/boot.php"]
+    }
+}
